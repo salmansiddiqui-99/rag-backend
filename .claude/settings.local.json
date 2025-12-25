@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(dir /s)",
-      "Bash(powershell \"Get-ChildItem -Recurse\")"
+      "Bash(powershell \"Get-ChildItem -Recurse\")",
+      "Bash(del \"C:\\\\Users\\\\haroon traders\\\\Desktop\\\\projects\\\\railway\\\\Procfile\")"
     ]
   }
 }
