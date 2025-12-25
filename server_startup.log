@@ -1,0 +1,56 @@
+INFO:     Started server process [5724]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+ERROR:    [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8000): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+================================================================================
+MAIN MODULE LOADING - This should appear in Railway logs!
+================================================================================
+================================================================================
+MODULE-LEVEL CONFIG CHECK (runs before startup event):
+================================================================================
+QDRANT_COLLECTION: chapter_chunks
+QDRANT_VECTOR_SIZE: 1024
+RAG_SIMILARITY_THRESHOLD: 0.5
+OPENROUTER_API_KEY: SET
+OPENROUTER_MODEL: mistralai/devstral-2512:free
+LLM_PROVIDER: openrouter
+QDRANT_API_KEY: SET
+RAG_TOP_K: 5
+================================================================================
+================================================================================
+Physical AI Textbook API starting up...
+================================================================================
+
+Configuration Check:
+  API_TITLE: Physical AI Textbook API
+  API_VERSION: 1.0.0
+  DEBUG: False
+
+Database Configuration:
+  DATABASE_URL: postgresql://neondb_owner:npg_ALd8aFzOyJC0@ep-summ...
+
+Qdrant Configuration:
+  QDRANT_URL: https://7076ae15-6fe8-4ba4-b563-d93ba005dc18.europe-west3-0.gcp.cloud.qdrant.io
+  QDRANT_COLLECTION: chapter_chunks
+  QDRANT_VECTOR_SIZE: 1024
+  QDRANT_API_KEY: SET
+
+AI Configuration:
+  LLM_PROVIDER: openrouter
+  OPENROUTER_API_KEY: SET
+  OPENROUTER_MODEL: mistralai/devstral-2512:free
+  COHERE_API_KEY: SET
+
+RAG Configuration:
+  RAG_SIMILARITY_THRESHOLD: 0.5
+  RAG_TOP_K: 5
+
+CORS Configuration:
+  CORS_ORIGINS: ['https://salmansiddiqui-99.github.io', 'http://localhost:3000', 'http://localhost:5173']
+
+OK: Configuration validation passed
+================================================================================
+Startup complete
+================================================================================

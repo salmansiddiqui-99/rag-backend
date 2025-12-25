@@ -1,0 +1,20 @@
+[flake8]
+# PEP 8 Configuration for Python code linting
+
+max-line-length = 120
+extend-ignore = E203, W503
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist,
+    .venv,
+    venv,
+    *.egg-info,
+    .pytest_cache,
+    .mypy_cache,
+    alembic/versions/
+
+# Report options
+count = True
+statistics = True
