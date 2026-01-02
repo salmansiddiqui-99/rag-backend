@@ -1,0 +1,27 @@
+# Core FastAPI Framework
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Vector Database & AI Services
+qdrant-client>=1.7.0
+cohere>=4.37
+openai>=1.6.1
+openai-agents>=0.6.4
+
+# Database (PostgreSQL with pgvector)
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+pgvector>=0.2.0
+
+# Utilities
+python-dotenv>=1.0.0
+tiktoken>=0.5.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+httpx>=0.25.0
